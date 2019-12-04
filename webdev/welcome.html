@@ -8,6 +8,8 @@
         <meta name="keywords" content="decentralized, blockchain, ethereum">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/cart_style.css">
+        <script src="js/script1.js" async></script>
         <title>DECENTRALIZED E-COMMERCE</title>
     
     </head>
@@ -23,11 +25,11 @@
 
         <nav class="header2">
                 
-                <Button class="btn"><a href="main.html">Physical</a></Button>
-                <Button class="btn"><a href="main2.html">Digital</a></Button>
+                <Button class="btn"><a href="welcome.html">Physical</a></Button>
+                <Button class="btn"><a href="welcome2.html">Digital</a></Button>
                 <input class="search" type="search" placeholder="Search" name="search">
                 
-                <Button class="btn2" ><a href="cart.html">Cart</a></Button>
+                <Button class="btn2" ><a href="#cart1">Cart</a></Button>
             
            
                
@@ -84,7 +86,7 @@
             </div>
             <div class="productinfo">
                 <h4>Asus Zenfone</h4>
-                <h5>₹15,999</h5>
+                <h5>₹15999</h5>
                 <button class="probtn">Add to Cart</button>
             </div>
         </div>
@@ -126,8 +128,8 @@
                                 <img src="images/smartwatch.png" width="200px" height="200px">
                         </div>
                         <div class="productinfo">
-                            <h4>Apple SmartWatch</h4>
-                            <h5>₹30,000</h5>
+                            <h4 class="item_name">Apple SmartWatch</h4>
+                            <h5 >₹30000</h5>
                             <button class="probtn">Add to Cart</button>
                         </div>
         </div>
@@ -147,7 +149,7 @@
                 </div>
                 <div class="productinfo">
                     <h4>Apple Monitor</h4>
-                    <h5>₹25,000</h5>
+                    <h5>₹25000</h5>
                     <button class="probtn">Add to Cart</button>
                 </div>
         </div>
@@ -158,7 +160,7 @@
                 </div>
                 <div class="productinfo">
                     <h4>Sony 4k TV</h4>
-                    <h5>₹1,00,000</h5>
+                    <h5>₹100000</h5>
                     <button class="probtn">Add to Cart</button>
                 </div>
         </div>
@@ -169,7 +171,7 @@
                 </div>
                 <div class="productinfo">
                     <h4>Desktop PC</h4>
-                    <h5>₹1,00,000</h5>
+                    <h5>₹100000</h5>
                     <button class="probtn">Add to Cart</button>
                 </div>
         </div>
@@ -191,7 +193,7 @@
                 </div>
                 <div class="productinfo">
                     <h4>Nikon DSLR Camera</h4>
-                    <h5>₹70,000</h5>
+                    <h5>₹70000</h5>
                     <button class="probtn">Add to Cart</button>
                 </div>
         </div>
@@ -205,6 +207,22 @@
                     <button class="probtn">Add to Cart</button>
                 </div>
         </div>
+    </section>
+    <section class="container content-section">
+        <h2   class="section-header"><a name="cart1"></a>CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+        
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">₹3997</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
     </section>
     </body>
 

@@ -9,6 +9,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/main.css">
         <title>DECENTRALIZED E-COMMERCE</title>
+        <link rel="stylesheet" href="css/cart_style.css">
+        <script src="js/script1.js" async></script>
     
     </head>
 
@@ -23,11 +25,11 @@
 
         <nav class="header2">
                 
-               <Button class="btn"><a href="main.html">Physical</a></Button>
+               <Button class="btn"><a href="demo.html">Physical</a></Button>
                 <Button class="btn"><a href="main2.html">Digital</a></Button>
                 <input class="search" type="search" placeholder="Search" name="search">
                 <Button class="btn1" ><a href="login.html">Login</a></Button>
-                <Button class="btn2" ><a href="cart.html">Cart</a></Button>
+                <Button class="btn2" ><a href="#cart1">Cart</a></Button>
         </nav>
 
         
@@ -198,7 +200,25 @@
                 </div>
         </div>
     </section>
+    <section class="container content-section">
+        <h2   class="section-header"><a name="cart1"></a>CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+            
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">₹0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </section>
         
     </body>
 
 </html>
+
+
